@@ -8,7 +8,7 @@ const changeModalState = (state) => {
     windowProfile = document.querySelectorAll(".checkbox");
 
   const nextCalcBtn = document.querySelector(".calc_next_btn"),
-    nextNextB = document.querySelector(".popup_calc_profile_button");
+    nextProfileBtn = document.querySelector(".popup_calc_profile_button");
 
   checkNumImputs("#width");
   checkNumImputs("#height");
